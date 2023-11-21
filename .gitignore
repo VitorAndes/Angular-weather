@@ -40,3 +40,11 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+angular.json
+.gitignore
+angular.json
+package-lock.json
+src/app/components/header-bar/header-bar.component.css
+src/app/components/card-week/card-week.component.css
+src/app/components/card-big/card-big.component.css
+package.json
