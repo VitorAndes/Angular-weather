@@ -1,20 +1,47 @@
-<div class="flex justify-center m-auto">
-    <div class="flex flex-col justify-center p-4 rounded-md h-80 shadow-[0_15px_70px_10px_rgba(20,50,96,1)] bg-[url('/assets/images/nuvem.png')]">
-        <div class="flex flex-col gap-2 mb-20 ">
-            <h1>Terça</h1>
+<div class="p-2 max-sm:p-0 group">
+    <div class="mb-10 p-4 rounded-md h-70 shadow-[0_1px_20px_1px_rgba(0,0,0,.9)] transition-shadow hover:shadow-[0_15px_40px_10px_rgba(87,144,206,1)] bg-[url('/assets/images/nuvem.png')]">
+        <div class=" gap-2 mb-20 ">
+            <h1 class="text-xl font-semibold">Terça</h1>
             <h3 class="text-3xl">35°C <span class="text-xs bg-slate-200 rounded-lg p-1">RealFeel 39°</span></h3> 
             <span class="text-sm text-zinc-700 ">Predominantemente nublado</span>
         </div> 
-        <div class="grid grid-cols-3 auto-rows-fr gap-1 p-1 h-20 text-center">
-            <div class="bg-cyan-600/40 rounded-xl flex flex-col justify-center text-xs font-semibold">
-                <h4>Vento</h4>
+        <div class="grid grid-cols-3 auto-cols-fr gap-1 p-1 h-20 text-center">
+            <div class="bg-cyan-600/40 rounded-xl flex flex-col justify-center">
+                <h4 class="text-xs font-semibold">Vento</h4>
             </div>
-            <div class="bg-cyan-600/40 rounded-xl flex flex-col justify-center text-xs font-semibold">
-                <h4>Ìndice mácimo de raios UV</h4>
+            <div class="bg-cyan-600/40 rounded-xl flex flex-col justify-center">
+                <h4 class="text-xs font-semibold">Ìndice máximo de raios UV</h4>
             </div>
-            <div class="bg-cyan-600/40 rounded-xl flex flex-col justify-center text-xs font-semibold">
-                <h4>Qualidade do Ar</h4>
+            <div class="bg-cyan-600/40 rounded-xl flex flex-col justify-center ">
+                <h4 class="text-xs font-semibold">Úmidade</h4>
             </div>
         </div>
     </div>
+<!-- Div more -->
+<div class="opacity-0 group-hover:opacity-100 transition-opacity border-blue-900">
+    <div class="grid grid-cols-2 gap-1 p-4 rounded-md h-70 shadow-[0_1px_20px_1px_rgba(0,0,0,.9)] transition-shadow hover:shadow-[0_15px_40px_10px_rgba(87,144,206,1)]">
+        <div class="flex flex-row justify-evenly mb-4 p-1 border-b border-zinc-400">
+            <img width="20px" src="https://cdn4.iconfinder.com/data/icons/weather-129/64/weather-10-256.png" alt="">
+            <h3 class="text-xs font-semibold">Max. / Mín.</h3>
+            <span class="text-xs text-zinc-600">32°/25°</span>
+        </div>   
+
+        <div class="flex flex-row justify-evenly mb-4 p-1 border-b border-zinc-400">
+            <img width="20px" src="https://cdn2.iconfinder.com/data/icons/nautical/32/water_drop-256.png" alt="">
+            <h3 class="text-xs font-semibold">Umidade</h3>
+            <span class="text-xs text-zinc-600">67%</span>
+        </div> 
+
+        <div class="flex flex-row justify-evenly mb-4 p-1 border-b border-zinc-400">
+            <img width="20px" src="https://cdn1.iconfinder.com/data/icons/air-transport-3/48/Wind-256.png" alt="">
+            <h3 class="text-xs font-semibold">Vento</h3>
+            <span class="text-xs text-zinc-600">10 km/h</span>
+        </div>
+        
+        <div class="flex flex-row justify-evenly mb-4 p-1 border-b border-zinc-400">
+            <img width="20px" src="https://cdn1.iconfinder.com/data/icons/carbon-design-system-vol-8/32/uv-index--alt-256.png" alt="">
+            <h3 class="text-xs font-semibold">Índice-UV</h3>
+            <span class="text-xs text-zinc-600">7 de 11</span>
+        </div> 
+    </div>  
 </div>
